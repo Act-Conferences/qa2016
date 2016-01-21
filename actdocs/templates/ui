@@ -29,6 +29,37 @@
 
 <body>
 
+
+<div id="wrapper">
+
+  <div id="header">
+    [%- IF title -%]<h2>[% title  %]</h2>[%- END -%]
+  </div>
+
+  <div id="menu">
+  <h2><a href="[% make_uri('sponsors.html') %]">Sponsors</a></h2>
+  <h2><a href="[% make_uri('venue.html') %]">Venue</a></h2>
+  <h2><a href="[% make_uri('budget.html') %]">Budget</a></h2>
+  <h2><a href="[% make_uri('donate.html') %]">Donate</a></h2>
+    [% PROCESS menu %]
+  </div>
+
+  <div id="content">
+    <div id="outer">
+    <div id="berlin">
+    <a href="[% make_uri('') %]"><img src="/qa2016/img/2016-qahackathon-banner.png" /></a>
+    <div class="footer">April 21-24 @ Rugby, UK</div>
+    </div>
+
+    [% content %]
+  </div>
+
+  <div id="footer">
+    Powered by <a href="http://act.mongueurs.net/">Act</a> — A Conference Toolkit
+  | Running on <a href="http://www.freebsd.org">FreeBSD</a>
+  </div>
+
+</div>
 <div id="sponsors">
 
 <h2><a href="sponsors.html">Sponsors</a></h2>
@@ -57,37 +88,6 @@
 <a href="http://www.mongodb.org/"><img class="icon" src="[% make_uri('img/mongodb-logo-web.png') %]" width="140" alt="MongoDB" title="MongoDB"></a><br><br>
 <a href="http://www.campusexplorer.com/"><img class="icon" src="[% make_uri('img/campus-explorer-logo.png') %]" width="180" alt="campus explorer" title="campus explorer"></a><br><br>
 -->
-
-</div>
-
-<div id="outer">
-<div id="berlin">
-<h1><a href="[% make_uri('') %]">Perl QA Hackathon 2016</a></h1>
-<div class="footer">April 21-24 @ Rugby, UK</div>
-</div>
-
-<div id="wrapper">
-
-  <div id="header">
-    [%- IF title -%]<h2>[% title  %]</h2>[%- END -%]
-  </div>
-
-  <div id="menu">
-  <h2><a href="[% make_uri('sponsors.html') %]">Sponsors</a></h2>
-  <h2><a href="[% make_uri('venue.html') %]">Venue</a></h2>
-  <h2><a href="[% make_uri('budget.html') %]">Budget</a></h2>
-  <h2><a href="[% make_uri('donate.html') %]">Donate</a></h2>
-    [% PROCESS menu %]
-  </div>
-
-  <div id="content">
-    [% content %]
-  </div>
-
-  <div id="footer">
-    Powered by <a href="http://act.mongueurs.net/">Act</a> — A Conference Toolkit
-  | Running on <a href="http://www.freebsd.org">FreeBSD</a>
-  </div>
 
 </div>
 </div>
