@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="[% global.request.language %]" xml:lang="[% global.request.language %]">
 
 <head>
+<title>[% title %] - Perl QA Hackathon 2016 - Rugby, UK</title>
 <!-- Document Metadata -->
 <meta http-equiv="Content-Language" content="[% global.request.language %]" />
 <!-- OpenId -->
@@ -32,9 +33,11 @@
 
 <div id="wrapper">
 
+<!--
   <div id="header">
     [%- IF title -%]<h2>[% title  %]</h2>[%- END -%]
   </div>
+-->
 
   <div id="menu">
   <h2><a href="[% make_uri('sponsors.html') %]">Sponsors</a></h2>
@@ -92,9 +95,5 @@
 </div>
 </div>
 
-<div id="footer">
-Skyline Image by <a href="http://de.wikipedia.org/wiki/Benutzer:Casp">Casp</a> from <a href="http://commons.wikimedia.org/wiki/File:Berlin_skyline_2009w.jpg">http://commons.wikimedia.org/</a>
-| <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">CC License</a>
-</div>
 </body>
 </html>
