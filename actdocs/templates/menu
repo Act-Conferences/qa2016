@@ -3,7 +3,7 @@
 [% PROCESS menus/users %]
 [% PROCESS menus/news %]
 [% PROCESS menus/wiki %]
-[% PROCESS menus/talks %]
+<!-- [% PROCESS menus/talks %] -->
 [% PROCESS menus/events %]
 [% PROCESS menus/treasurer %]
 [% PROCESS menus/admin %]
