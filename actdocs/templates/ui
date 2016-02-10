@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="[% global.request.language %]" xml:lang="[% global.request.language %]">
 
 <head>
+<title>[% title %] - Perl QA Hackathon 2016 - Rugby, UK</title>
 <!-- Document Metadata -->
 <meta http-equiv="Content-Language" content="[% global.request.language %]" />
 <!-- OpenId -->
@@ -29,6 +30,39 @@
 
 <body>
 
+
+<div id="wrapper">
+
+<!--
+  <div id="header">
+    [%- IF title -%]<h2>[% title  %]</h2>[%- END -%]
+  </div>
+-->
+
+  <div id="menu">
+  <h2><a href="[% make_uri('sponsors.html') %]">Sponsors</a></h2>
+  <h2><a href="[% make_uri('venue.html') %]">Venue</a></h2>
+  <h2><a href="[% make_uri('budget.html') %]">Budget</a></h2>
+  <h2><a href="[% make_uri('donate.html') %]">Donate</a></h2>
+    [% PROCESS menu %]
+  </div>
+
+  <div id="content">
+    <div id="outer">
+    <div id="berlin">
+    <a href="[% make_uri('') %]"><img src="/qa2016/img/2016-qahackathon-banner.png" /></a>
+    <div class="footer">April 21-24 @ Rugby, UK</div>
+    </div>
+
+    [% content %]
+  </div>
+
+  <div id="footer">
+    Powered by <a href="http://act.mongueurs.net/">Act</a> — A Conference Toolkit
+  | Running on <a href="http://www.freebsd.org">FreeBSD</a>
+  </div>
+
+</div>
 <div id="sponsors">
 
 <h2><a href="sponsors.html">Sponsors</a></h2>
@@ -92,9 +126,5 @@
 </div>
 </div>
 
-<div id="footer">
-Skyline Image by <a href="http://de.wikipedia.org/wiki/Benutzer:Casp">Casp</a> from <a href="http://commons.wikimedia.org/wiki/File:Berlin_skyline_2009w.jpg">http://commons.wikimedia.org/</a>
-| <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">CC License</a>
-</div>
 </body>
 </html>
