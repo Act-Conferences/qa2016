@@ -70,7 +70,7 @@
 
 <a href="https://www.fastmail.com/"><img class="icon" src="[% make_uri('img/logo-fastmail.png') %]" width="220" alt="FastMail" title="FastMail"></a><br><br>
 <a href="https://www.ziprecruiter.com/"><img class="icon" src="[% make_uri('img/logo-ziprecruiter.png') %]" width="220" alt="ZipRecruiter" title="ZipRecruiter"></a><br><br>
-<a href="http://www.activestate.com/"><img class="icon" src="[% make_uri('img/logo-ziprecruiter.png') %]" width="220" alt="ActiveState" title="ActiveState"></a><br><br>
+<a href="http://www.activestate.com/"><img class="icon" src="[% make_uri('img/logo-activestate.png') %]" width="220" alt="ActiveState" title="ActiveState"></a><br><br>
 
 <!--
 <a href="http://www.thinkproject.com/"><img class="icon" src="[% make_uri('img/logo-thinkproject.jpg') %]" width="220" alt="thinkproject!" title="thinkproject!"></a><br><br>
