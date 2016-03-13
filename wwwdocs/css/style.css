@@ -232,4 +232,5 @@ a {
 #wrapper {
   margin: 5px 20px;
   background-color: #c5e5ed;
+  min-width: 1250px;
 }
