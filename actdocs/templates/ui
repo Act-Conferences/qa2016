@@ -76,10 +76,12 @@
 <a href="https://www.ziprecruiter.com/"><img class="icon" src="[% make_uri('img/logo-ziprecruiter.png') %]" width="220" alt="ZipRecruiter" title="ZipRecruiter"></a><br><br>
 <a href="http://www.activestate.com/"><img class="icon" src="[% make_uri('img/logo-activestate.png') %]" width="220" alt="ActiveState" title="ActiveState"></a><br><br>
 
+<a href="http://www.strato.de/"><img class="icon" width="200" src="[% make_uri('img/strato-logo-tr.png') %]" alt="STRATO" title="STRATO"></a><br><br>
+<a href="http://www.surevoip.co.uk/"><img class="icon" width="200" src="[% make_uri('img/logo-surevoip.png') %]" alt="SureVOIP" title="SureVOIP"></a><br><br>
+
 <!--
 <a href="http://www.thinkproject.com/"><img class="icon" src="[% make_uri('img/logo-thinkproject.jpg') %]" width="220" alt="thinkproject!" title="thinkproject!"></a><br><br>
 <a href="http://aws.amazon.com/de/"><img class="icon" width="200" src="[% make_uri('img/Logo-Amazon.png') %]" alt="Amazon Development Center Germany GmbH" title="Amazon Development Center Germany GmbH"></a><br><br>
-<a href="http://www.strato.de/"><img class="icon" width="200" src="[% make_uri('img/strato-logo-tr.png') %]" alt="STRATO" title="STRATO"></a><br><br>
 <a href="http://booking.com/"><img class="icon" width="200" src="[% make_uri('img/booking.png') %]" alt="Booking.com" title="Booking.com"></a><br><br>
 <a href="http://affinitylive.com/"><img class="icon" width="200" src="[% make_uri('img/affinitylive-logo.png') %]" alt="AffinityLive.com" title="AffinityLive.com"></a><br><br>
 <a href="https://travis-ci.com/"><img class="icon" width="200" src="[% make_uri('img/TravisCI-Full-Color.png') %]" alt="Travis CI" title="Travis CI"></a><br><br>
@@ -89,16 +91,21 @@
 <a href="http://www.evozon.com/"><img class="icon" src="[% make_uri('img/evozon.png') %]" width="160" alt="Evozon" title="Evozon"></a><br><br>
 <a href="http://mongueurs.pm/"><img class="icon" src="[% make_uri('img/logo_mongueurs.png') %]" width="110" alt="Mongueurs de Perl" title="Mongueurs de Perl"></a><br><br>
 <a href="http://www.yapceurope.org/"><img class="icon" src="[% make_uri('img/yef-logo.png') %]" width="170" alt="YAPC Europe Foundation" title="YAPC Europe Foundation"></a><br><br>
-<a href="http://perl.iinteractive.com/"><img class="icon" src="[% make_uri('img/infinityinteractive.png') %]" width="90" alt="infinity interactive" title="infinity interactive"></a><br><br>
 <a href="http://neo4j.com/"><img class="icon" src="[% make_uri('img/neo4j-blue-logo.png') %]" width="90" alt="neo4j" title="neo4j"></a><br><br>
 <a href="http://perlweekly.com/" alt="Perl Weekly newsletter" title="Perl Weekly newsletter"><img width="180" src="http://perlweekly.com/img/perl_weekly.png" border="0" /></a><br><br>
 <a href="https://www.liquidweb.com/"><img class="icon" src="[% make_uri('img/liquidweb-wht-lg.jpg') %]" width="170" alt="liquidweb" title="liquidweb"></a><br><br>
 <a href="http://www.elasticsearch.com/"><img class="icon" src="[% make_uri('img/elasticsearch.jpg') %]" width="140" alt="elasticsearch" title="elasticsearch"></a><br><br>
 <a href="http://www.dreamhost.com/"><img class="icon" src="[% make_uri('img/logo-dreamhost.png') %]" width="150" alt="dreamhost" title="dreamhost"></a><br><br>
 <a href="http://www.procura.nl"><img class="icon" src="[% make_uri('img/logo-procura.png') %]" width="130" alt="procura" title="procura"></a><br><br>
-<a href="http://www.mongodb.org/"><img class="icon" src="[% make_uri('img/mongodb-logo-web.png') %]" width="140" alt="MongoDB" title="MongoDB"></a><br><br>
 <a href="http://www.campusexplorer.com/"><img class="icon" src="[% make_uri('img/campus-explorer-logo.png') %]" width="180" alt="campus explorer" title="campus explorer"></a><br><br>
+
+<a href="http://perl.iinteractive.com/"><img class="icon" src="[% make_uri('img/infinityinteractive.png') %]" width="90" alt="infinity interactive" title="infinity interactive"></a><br><br>
+<a href="http://www.mongodb.org/"><img class="icon" src="[% make_uri('img/mongodb-logo-web.png') %]" width="140" alt="MongoDB" title="MongoDB"></a><br><br>
 -->
+
+<a href="http://perl.iinteractive.com/">Infinity Interactive</a><br><br>
+<a href="http://www.perl.careers/">Perl Careers</a><br><br>
+<a href="http://www.mongodb.org/">MongoDB</a><br><br>
 
 </div>
 
